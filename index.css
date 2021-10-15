@@ -21,7 +21,7 @@ a:hover {
 body {
   background: #F0F2F5;
   margin: 0;
-  padding-top: 72px;
+  padding-top: 75px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 80px;
@@ -41,13 +41,18 @@ header {
 	top: 0;
   left: 0;
   width: 100%;
-  height: 52px;
+  height: 55px;
   line-height: 20px;
   padding-top: 18px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 14px;
   box-sizing: border-box;
+}
+
+header span{
+  max-width: 60%;
+  text-align: right;
 }
 
 .logo {
@@ -67,20 +72,20 @@ header {
   font-size: 22px;
 }
 
+main {
+  min-height: calc(100vh - 200px);
+}
+
 footer{
   color: rgba(0, 0, 0, 0.54); 
 	border-top: 1px solid rgba(0, 0, 0, 0.24);
 	display: flex;
 	align-items: center;
   justify-content: center;
-  position: absolute;
-  bottom: 0;
-  margin: auto;
-	min-height: 60px;
+  height: 60px;
   width: calc(100vw - 40px);
-  padding-left: 20px;
-  padding-right: 20px;
-	box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: -80px;
 }
 
 @media screen and (min-width:840px) {
@@ -95,10 +100,10 @@ footer{
 
 /* main */
 article h2{
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
-  margin-top: 22px;
-  margin-bottom: 22px;
+  margin-top: 35px;
+  margin-bottom: 25px;
 }
 
 button {

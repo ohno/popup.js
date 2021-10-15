@@ -8,49 +8,55 @@
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/styles/atom-one-dark.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ohno/popup.js@latest/popup.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ohno/popup.js/popup.min.css">
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/highlight.min.js"></script>
     <script>hljs.highlightAll();</script> <!-- highlight.js -->
-    <script src="https://cdn.jsdelivr.net/gh/ohno/popup.js@latest/popup.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ohno/popup.js@latest/popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ohno/popup.js/popup.min.css">
   </head>
 
   <body>
-    <header class="header" id="header">
+    <!-- Header -->
+    <header>
       <a class="logo" href="https://github.com/ohno/popup.js">
         <i class="material-icons">chat_bubble_outline</i>
         <h1>popup.js</h1>
       </a>
-      <div>
+      <span>
         <a class="github-button" href="https://github.com/ohno/popup.js" data-icon="octicon-star" aria-label="Star ohno/popup.js on GitHub">Star</a>
         <a class="github-button" href="https://github.com/ohno/popup.js/archive/HEAD.zip" data-icon="octicon-download" aria-label="Download ohno/popup.js on GitHub">Download</a>
         <a class="github-button" href="https://github.com/ohno" aria-label="Follow @ohno on GitHub">Follow @ohno</a>
-      </div>
+      </span>
     </header>
 
-    <!-- CDN -->
-    <article>
-      <h2>CDN</h2>
-      <pre><code class="language-html">&lt;script src=&quot;https://cdn.jsdelivr.net/gh/ohno/popup.js@latest/popup.js&quot;&gt;&lt;/script&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/ohno/popup.js@latest/popup.min.css&quot;&gt;</code></pre>
-    </article>
+    <!-- Main -->
+    <main>
+      <!-- CDN -->
+      <article>
+        <h2>CDN</h2>
+        <pre><code class="language-html">&lt;script src=&quot;https://cdn.jsdelivr.net/gh/ohno/popup.js@latest/popup.min.js&quot;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/ohno/popup.js/popup.min.css&quot;&gt;</code></pre>
+      </article>
 
-    <!-- Example -->
-    <article>
-      <h2>Example 1</h2>
-      <pre><code class="language-html">&lt;button onClick='popup(&quot;Hello World!&quot;);'&gt;ポップアップ表示&lt;/button&gt;</code></pre>
-      <button onClick='popup("Hello World!");'>ポップアップ表示</button>
-    </article>
+      <!-- Example -->
+      <article>
+        <h2>Example 1</h2>
+        <pre><code class="language-html">&lt;button onClick='popup(&quot;Hello World!&quot;);'&gt;ポップアップ表示&lt;/button&gt;</code></pre>
+        <button onClick='popup("Hello World!");'>ポップアップ表示</button>
+      </article>
 
-    <!-- Example -->
-    <article>
-      <h2>Example 2</h2>
-      <pre><code class="language-html">&lt;input id=&quot;input&quot; value=&quot;ここに書いてある文字列を表示します。&quot;&gt;
+      <!-- Example -->
+      <article>
+        <h2>Example 2</h2>
+        <pre><code class="language-html">&lt;input id=&quot;input&quot; value=&quot;ここに書いてある文字列を表示します。&quot;&gt;
 &lt;button onClick='popup(document.getElementById(&quot;input&quot;).value);'&gt;ポップアップ表示&lt;/button&gt;</code></pre>
-      <input id="input" value="ここに書いてある文字列を表示します。">
-      <button onClick='popup(document.getElementById("input").value);'>ポップアップ表示</button>
-    </article>
+        <input id="input" value="ここに書いてある文字列を表示します。">
+        <button onClick='popup(document.getElementById("input").value);'>ポップアップ表示</button>
+      </article>
+    </main>
 
+    <!-- Footer -->
     <footer>
       <a href="https://github.com/ohno/">© 2021 Shuhei Ohno</a>
     </footer>	
