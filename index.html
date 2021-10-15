@@ -17,6 +17,7 @@
   </head>
 
   <body>
+
     <!-- Header -->
     <header>
       <a class="logo" href="https://github.com/ohno/popup.js">
@@ -42,13 +43,20 @@
       <!-- Example -->
       <article>
         <h2>Example 1</h2>
+        <pre><code class="language-html">&lt;script&gt;popup(&quot;Hello World!&quot;);&lt;/script&gt;</code></pre>
+        <script>popup("Hello World!");</script>
+      </article>
+
+      <!-- Example -->
+      <article>
+        <h2>Example 2</h2>
         <pre><code class="language-html">&lt;button onClick='popup(&quot;Hello World!&quot;);'&gt;ポップアップ表示&lt;/button&gt;</code></pre>
         <button onClick='popup("Hello World!");'>ポップアップ表示</button>
       </article>
 
       <!-- Example -->
       <article>
-        <h2>Example 2</h2>
+        <h2>Example 3</h2>
         <pre><code class="language-html">&lt;input id=&quot;input&quot; value=&quot;ここに書いてある文字列を表示します。&quot;&gt;
 &lt;button onClick='popup(document.getElementById(&quot;input&quot;).value);'&gt;ポップアップ表示&lt;/button&gt;</code></pre>
         <input id="input" value="ここに書いてある文字列を表示します。">
