@@ -1,0 +1,125 @@
+/* reset */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap');
+body, p, a, input, button h1, h2, h3, h4, h5, h6{
+  color: #292929;
+	font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+}
+
+a, button {
+	text-decoration: none;
+	color: unset;
+  transition: 0.2s;
+}
+
+a:hover {
+  opacity: 0.6;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+/* basis */
+body {
+  background: #F0F2F5;
+  margin: 0;
+  padding-top: 72px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+  min-height: 100vh;
+	overflow-x: hidden;
+}
+
+header {
+  color: #24292F;
+  background: #FFFFFF;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.24);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+	top: 0;
+  left: 0;
+  width: 100%;
+  height: 52px;
+  line-height: 20px;
+  padding-top: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 14px;
+  box-sizing: border-box;
+}
+
+.logo {
+  color: #24292F;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo i{
+  padding-right: 5px;
+  font-size: 28px;
+}
+
+.logo h1 {
+  font-size: 22px;
+}
+
+footer{
+  color: rgba(0, 0, 0, 0.54); 
+	border-top: 1px solid rgba(0, 0, 0, 0.24);
+	display: flex;
+	align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+	min-height: 60px;
+  width: calc(100vw - 40px);
+  padding-left: 20px;
+  padding-right: 20px;
+	box-sizing: border-box;
+}
+
+@media screen and (min-width:840px) {
+  body, header {
+    padding-left: calc((100vw - 800px) / 2);
+    padding-right: calc((100vw - 800px) / 2);
+  }
+  footer {
+    width: 800px;
+  }
+}
+
+/* main */
+article h2{
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+button {
+  background-image: linear-gradient(180deg, #f6f8fa, #ebf0f4 90%);
+  border-radius: 6px;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  border: 1px solid rgba(27,31,36,0.25);
+}
+
+button:hover {
+  color: #595959;
+  background: #ebf0f4;
+  border-color: #ccd1d5;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid rgba(27,31,36,0.25);
+  margin-bottom: 13px;
+}
