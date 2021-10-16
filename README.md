@@ -1,5 +1,5 @@
 # popup.js
-A simple JavaScript library for displaying pop-up texts
+Displaying ​popup text without jQuery
 
 ## Demos
 https://ohno.github.io/popup.js/
