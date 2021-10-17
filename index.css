@@ -115,9 +115,13 @@ button {
 }
 
 button:hover {
+  cursor: pointer;
   color: #595959;
-  background: #ebf0f4;
   border-color: #ccd1d5;
+}
+
+button:active {
+  background: #ebf0f4;
 }
 
 input {
