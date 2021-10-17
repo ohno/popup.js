@@ -1,5 +1,5 @@
 # popup.js
-Displaying ​popup text without jQuery
+Popup without jQuery
 
 ## Demos
 https://ohno.github.io/popup.js/
