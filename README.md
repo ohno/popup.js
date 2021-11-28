@@ -6,8 +6,8 @@ https://ohno.github.io/popup.js/
 
 ## CDN
 ```
-<script src="https://cdn.jsdelivr.net/gh/ohno/popup.js@1.0.0/popup.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ohno/popup.js@1.0.0/popup.min.css">
+<script src="https://cdn.jsdelivr.net/gh/ohno/popup.js@1.0.1/popup.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ohno/popup.js@1.0.1/popup.min.css">
 ```
 
 ## Usage
