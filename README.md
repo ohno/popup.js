@@ -12,15 +12,18 @@ https://ohno.github.io/popup.js/
 
 ## Usage
 
+### Example 1
 ```
 <script>popup("Hello World!");</script>
 ```
 
+### Example 2
 ```
-<button onClick='popup("Hello World!");'>ポップアップ表示</button>
+<button onClick='popup("Hello World!");'>popup</button>
 ```
 
+### Example 3
 ```
-<input id="input" value="ここに書いてある文字列を表示します。">
-<button onClick='popup(document.getElementById("input").value);'>ポップアップ表示</button>
+<input id="input" value="TextTextTextTextTextText">
+<button onClick='popup(document.getElementById("input").value);'>popup!</button>
 ```
